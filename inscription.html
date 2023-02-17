@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscription</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="style3.css">
+    <link rel="stylesheet" href="style4.css">
+    <script src="function.js"></script>
+</head>
+<body>
+    <!--------------- Navbar --------------->
+    <header>
+        <nav>
+            <div class="navheader">
+    
+                    <a href="home.html"><h1 class="navtitre">LUXURY KITCHEN</h1></a>
+                    <div class="allnavico">
+                        <img alt="Profil" onclick="mycadrelogin()" class="navico" src="images/profil.png">
+                        <a href="panier.html"><img alt="Panier" class="navico" src="images/panier.png"></a>
+                        <img alt="Menu" onclick="myburger()" class="navico" src="images/hamburger.png">
+                    </div>
+                    <div id="cadrelogin">
+                        <button class="buttonloginhome">Identifiez-vous</button>
+                        <div class="titreloginhomediv">
+                        <h5 class="titreloginhome1">Nouveau client ?</h5>
+                        
+                        <h5 class="titreloginhome2">Commandez ici</h5>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+    
+
+    
+    
+
+    <!------------- Burger ------------->
+
+        <div id="menuburger">
+            <img alt="Fermer le menu" onclick="myburgerclose()" class="fermerburger" src="/images/fermer.png">
+            <ul>
+                <a href="poelelog.html"><li class="liburger">Poêles</li></a>
+                <a href="verreslog.html"><li class="liburger">Verres</li></a>
+                <a href="accessoireslog.html"><li class="liburger">Accessoires</li></a>
+                <a href="couvertlog.html"><li class="liburger">Couverts</li></a>
+                <a href="assietteslog.html"><li class="liburger">Assiettes</li></a>
+                <a href="moulesplaqueslog.html"><li class="liburger">Moules et plaques</li></a>
+            </ul>
+
+            <!-- <div class="buttonpburger">
+                <p class="pburger">Devenez membre pour<br> accéder au meilleur des<br> produits.</p>
+                <a href="inscription.html"></a><button class="buttonburger1">Nous rejoindre</button>
+                <figure></figure>
+                <button class="buttonburger2">S'identifier</button>
+            </div> -->
+           
+            <ul>
+                <a href="panierlog.html"><li class="liburger">Panier</li></a>
+                <a href="paiement.html"><li class="liburger">Commandes</li></a>
+            </ul>
+
+            <div class="join-us">
+            
+                <img alt="Facebook" class="resologo" src="images/facebooklogo.png">
+                <img alt="Twitter" class="resologo" src="images/twitterlogo.png">
+                <img alt="Instagram" class="resologo" src="images/instalogo.png">
+            </div>
+
+        </div>
+            
+        </div>
+    </header>
+    
+
+    <!-----------------   Main  ---------------->
+    <main>
+        
+        <div class="divregistrer">
+            <h4 class="titleregistrer1">Créer un compte</h4>
+            <div class="titledivregistrer">
+                <h5 class="titleregistrer2">Vous avez déjà un compte ?</h5>
+                <h5 class="titleregistrer3">Identifiez-vous ici.</h5>
+            </div>
+
+            <form action="" method="get" class="formregistrer">
+
+            <input type="surname" placeholder="Nom de Famille" class="textregistrer" required pattern="[a-z] [A-Z] {3-25}">
+            <input type="name" placeholder="Prénom" class="textregistrer">
+            <input type="phone" placeholder="Numéro de téléphone" class="textregistrer">
+            <input type="mail" placeholder="Email" class="textregistrer">
+            <input type="postal" placeholder="Code Postal" class="textregistrer">
+            <input type="adresse" placeholder="Adresse" class="textregistrer">
+            <div class="divcheckbox">
+                <input type="checkbox" class="checkregistrer">
+                <label for="checkregistrer" class="labelcheckregistrer">En créant un compte, vous acceptez les condition de vente. Veuillez consulter notre notice de protections de vos informations personnelles et notre notice cookies.</label>
+            </div>
+            <input type="button" value="S'INSCRIRE" class="buttonregistrer">
+            </form>
+        </div>
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+</html>

@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verres</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="style3.css">
+    <link rel="stylesheet" href="style4.css">
+    <script src="function.js"></script>
+</head>
+<body>
+    <!--------------- Navbar --------------->
+    <header>
+        <nav>
+        <div class="navheader">
+
+                <h1 class="navtitre">LUXURY KITCHEN</h1>
+                <div class="allnavico">
+                    <a href="profillog.html"><img alt="Profil" class="navico" src="images/profil.png"></a>
+                    <a href="panierlog.html"><img alt="Panier" class="navico" src="images/panier.png"></a>
+                    <img alt="Menu" onclick="myburger()" class="navico" src="images/hamburger.png">
+                </div>
+            </div>
+        </nav>
+
+    
+
+    
+    
+
+    <!------------- Burger ------------->
+
+        <div id="menuburger">
+            <img alt="Fermer le menu" onclick="myburgerclose()" class="fermerburger" src="/images/fermer.png">
+            <ul>
+                <a href="poelelog.html"><li class="liburger">Poêles</li></a>
+                <a href="verreslog.html"><li class="liburger">Verres</li></a>
+                <a href="accessoireslog.html"><li class="liburger">Accessoires</li></a>
+                <a href="couvertlog.html"><li class="liburger">Couverts</li></a>
+                <a href="assietteslog.html"><li class="liburger">Assiettes</li></a>
+                <a href="moulesplaqueslog.html"><li class="liburger">Moules et plaques</li></a>
+            </ul>
+
+            <!-- <div class="buttonpburger">
+                <p class="pburger">Devenez membre pour<br> accéder au meilleur des<br> produits.</p>
+                <a href="inscription.html"></a><button class="buttonburger1">Nous rejoindre</button>
+                <figure></figure>
+                <button class="buttonburger2">S'identifier</button>
+            </div> -->
+           
+            <ul>
+                <a href="panierlog.html"><li class="liburger">Panier</li></a>
+                <a href="paiement.html"><li class="liburger">Commandes</li></a>
+            </ul>
+
+            <div class="join-us">
+            
+                <img alt="Facebook" class="resologo" src="images/facebooklogo.png">
+                <img alt="Twitter" class="resologo" src="images/twitterlogo.png">
+                <img alt="Instagram" class="resologo" src="images/instalogo.png">
+            </div>
+
+        </div>
+            
+        </div>
+    </header>
+    
+
+    <!-----------------   Main  ---------------->
+    <main>
+        <div id="menucategorie">
+            <ul>
+                <a href="homelog.html"><li class="licategorie">Accueil</li></a>
+                <a href="poelelog.html"><li class="licategorie">Poêles</li></a>
+                <li class="licategorie" onclick="mycategoriesclose()">Verres</li></a>
+                <a href="accessoireslog.html"><li class="licategorie">Accesoires</li></a>
+                <a href="couvertlog.html"><li class="licategorie">Couverts</li></a>
+                <a href="assietteslog.html"><li class="licategorie">Assiettes</li></a>
+                <a href="moulesplaqueslog.html"><li class="licategorie">Moules et plaques</li></a>
+            </ul>
+        </div>
+        
+        <div class="listcategorie">
+            <h3 onclick="mycategories()">Verres <img class="caron" onclick="mycategories()" src="images/caron.png"></h3>
+        </div>
+
+
+        
+        <div class="divallproduit">
+            <div class="divproduit">
+                <img alt="Poêle Tentation rouge avec manche amovible" class="imgproduit" src="imgproduit/verres/verre1.webp">
+                <h4>Poêle Tentation rouge avec manche amovible</h4>
+                <div class="buttonprixbis">    
+                    <button class="buttonproduit">ajouter au panier</button>
+                    <h5>55€00</h5>
+                </div>
+            </div>
+
+            <div class="divproduit">
+                <img alt="Verres éclatant" class="imgproduit" src="imgproduit/verres/verre2.webp">
+                <h4>Verres éclatant</h4>
+                <div class="buttonprixbis">    
+                    <button class="buttonproduit">ajouter au panier</button>
+                    <h5>45€99</h5>
+                </div>
+            </div>
+
+            <div class="divproduit">
+                <img alt="Verre à café" class="imgproduit" src="imgproduit/verres/verre3.jpg">
+                <h4>Verre à café</h4>
+                <div class="buttonprixbis">    
+                    <button class="buttonproduit">ajouter au panier</button>
+                    <h5>32€50</h5>
+                </div>
+            </div>
+
+            <div class="divproduit">
+                <img alt="Verre de luxe" class="imgproduit" src="imgproduit/verres/verre4.webp">
+                <h4>Verre de luxe</h4>
+                <div class="buttonprixbis">    
+                    <button class="buttonproduit">ajouter au panier</button>
+                    <h5>55€99</h5>
+                </div>
+            </div>
+
+            <div class="divproduit">
+                <img alt="Verre spécial" class="imgproduit" src="imgproduit/verres/verre5.webp">
+                <h4>Verre spécial</h4>
+                <div class="buttonprixbis">    
+                    <button class="buttonproduit">ajouter au panier</button>
+                    <h5>55€99</h5>
+                </div>
+            </div>
+
+            <div class="divproduit">
+                <img alt="Verres très spéciaux" class="imgproduit" src="imgproduit/verres/verre6.webp">
+                <h4>Verres très spéciaux</h4>
+                <div class="buttonprixbis">    
+                    <button class="buttonproduit">ajouter au panier</button>
+                    <h5>55€99</h5>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!------------- Footer --------------->
+
+
+    <footer>
+        
+        <h4 class="titlefooter">DECOUVREZ L'APPLICATION</h4>
+        
+        <div class="logoapp">
+            <img alt="Luxury Kitchen App IOS" class="applogo" src="images/apple.png">
+            <img alt="Luxury Kitchen App Android" class="applogo" src="images/googleplay.png">
+        </div>
+
+        <h4 class="titlefooter">PAIEMENT SECURISE</h4>
+        
+        <div class="paidsafe">
+            
+            <img alt="VISA" class="paidlogo" src="images/logos_visa.png">
+            <img alt="Mastercard" class="paidlogo" src="images/logos_mastercard.png">
+            <img alt="Paypal" class="paidlogo" src="images/logos_paypal.png">
+        </div>
+
+
+        <h4 class="titlefooter">REJOIGNEZ-NOUS</h4>
+
+        <div class="join-us">
+            
+            <img alt="Facebook" class="resologo" src="images/facebooklogo.png">
+            <img alt="Twitter" class="resologo" src="images/twitterlogo.png">
+            <img alt="Instagram" class="resologo" src="images/instalogo.png">
+        </div>
+
+        <img alt="Remonter en haut" onclick="myswipe()" class="swipe" src="images/swipe.png">
+    </footer>
+
+</body>
+</html>

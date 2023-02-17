@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Compte</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="style3.css">
+    <link rel="stylesheet" href="style4.css">
+    <script src="function.js"></script>
+</head>
+<body>
+
+<!----------------- Header -------------------------->
+
+    <header>
+        <nav>
+        <div class="navheader">
+
+                <h1 class="navtitre">LUXURY KITCHEN</h1>
+                <div class="allnavico">
+                    <a href="profillog.html"><img alt="Profil" class="navico" src="images/profil.png"></a>
+                    <a href="panierlog.html"><img alt="Panier" class="navico" src="images/panier.png"></a>
+                    <img alt="Menu" onclick="myburger()" class="navico" src="images/hamburger.png">
+                </div>
+            </div>
+        </nav>
+
+    
+
+    
+    
+
+    <!------------- Burger ------------->
+
+        <div id="menuburger">
+            <img alt="Fermer le menu" onclick="myburgerclose()" class="fermerburger" src="/images/fermer.png">
+            <ul>
+                <a href="poelelog.html"><li class="liburger">Poêles</li></a>
+                <a href="verreslog.html"><li class="liburger">Verres</li></a>
+                <a href="accessoireslog.html"><li class="liburger">Accessoires</li></a>
+                <a href="couvertlog.html"><li class="liburger">Couverts</li></a>
+                <a href="assietteslog.html"><li class="liburger">Assiettes</li></a>
+                <a href="moulesplaqueslog.html"><li class="liburger">Moules et plaques</li></a>
+            </ul>
+
+            <!-- <div class="buttonpburger">
+                <p class="pburger">Devenez membre pour<br> accéder au meilleur des<br> produits.</p>
+                <a href="inscription.html"></a><button class="buttonburger1">Nous rejoindre</button>
+                <figure></figure>
+                <button class="buttonburger2">S'identifier</button>
+            </div> -->
+           
+            <ul>
+                <a href="panierlog.html"><li class="liburger">Panier</li></a>
+                <a href="paiement.html"><li class="liburger">Commandes</li></a>
+            </ul>
+
+            <div class="join-us">
+            
+                <img alt="Facebook" class="resologo" src="images/facebooklogo.png">
+                <img alt="Twitter" class="resologo" src="images/twitterlogo.png">
+                <img alt="Instagram" class="resologo" src="images/instalogo.png">
+            </div>
+
+        </div>
+            
+        </div>
+    </header>
+    
+
+    <!-----------------   Main  ---------------->
+    <main>
+            <div class="contenuprofil">
+                <img alt="Jason Voorhess" class="imgpdp" src="images/jason-voorhees.webp">
+                <div class="trucdiv">
+                    <h2>Jason Voorhess</h2>
+                    <h6>Membre depuis Janvier 2023</h6>
+                </div>
+            </div>
+        <div class="contenaire">
+            <div class="lestitrescontenaire">
+                <h3 onclick="mycontenaire1()" class="titrecontenaire" id="titrecontenaire1">Compte</h3>
+                <h3 onclick="mycontenaire2()" class="titrecontenaire" id="titrecontenaire2">Commandes</h3>
+                <h3 onclick="mycontenaire3()" class="titrecontenaire" id="titrecontenaire3">Paramètres</h3>
+            </div>
+        <section id="contenaire1">
+            <h4 class="tablecontenaire">Mes informations ></h4>
+            <h2>Avantages Membres</h2>
+
+            <div class="defileavantage">
+            
+                <div class="divimgavantage">
+                    <img alt="Produits réservés au membres" class="imgavantage"    src="images/profilimg1.png">
+                    <h5>Produits réservés au membres</h5>
+                </div>
+                <div class="divimgavantage">
+                    <img alt="Livraison gratuites pour toutes les commandes" class="imgavantage"    src="images/profilimg2.png">
+                    <h5>Livraison gratuites pour toutes les commandes</h5>
+                </div>
+                <div class="divimgavantage">
+                    <img alt="Offres exclusives" class="imgavantage"    src="images/profilimg3.png">
+                    <h5>Offres exclusives</h5>
+                </div>
+            </div>
+
+            <h2>Les favoris</h2>
+            <div class="defilefavoris">
+            
+                <div class="divimgfavoris">
+                    <img alt="Ensemble d'ustensiles de cuisine 8 pièces en Silicone" class="imgfavoris"    src="imgproduit/accessoire/accessoire1.png">
+                    <div class="cadrefavoris">
+                        <h5>Ensemble d'ustensiles de<br> cuisine 8 pièces en Silicone</h5>
+                        <figure></figure>
+                        <div class="buttonprix">
+                            <button class="buttonfavoris">ajouter au panier</button>
+                            <h6>21€99</h6>
+                        </div>
+                    </div>  
+                </div>
+
+                <div class="divimgfavoris">
+                    <img alt="8 pièces Couverts en Acier Inoxydable" class="imgfavoris"    src="imgproduit/couverts/couvert2.png">
+                    <div class="cadrefavoris">
+                        <h5>8 pièces Couverts<br> en Acier Inoxydable</h5>
+                        <figure></figure>
+                        <div class="buttonprix">
+                            <button class="buttonfavoris">ajouter au panier</button>
+                            <h6>8€50</h6>
+                        </div>
+                    </div>  
+                </div>
+
+                <div class="divimgfavoris">
+                    <img alt="Lot bloc couteaux universel noir et set de 5 couteaux" class="imgfavoris"    src="imgproduit/accessoire/couteau.webp">
+                    <div class="cadrefavoris">
+                        <h5>Lot bloc couteaux universel noir<br> et set de 5 couteaux</h5>
+                        <figure></figure>
+                        <div class="buttonprix">
+                            <button class="buttonfavoris">ajouter au panier</button>
+                            <h6>20€</h6>
+                        </div>
+                    </div>  
+                </div>
+
+                <div class="divimgfavoris">
+                    <img alt="Set de 3 poêles anti-adhésives manche amovible" class="imgfavoris"    src="imgproduit/poêle/poele2.webp">
+                    <div class="cadrefavoris">
+                        <h5>Set de 3 poêles<br> anti-adhésives manche amovible</h5>
+                        <figure></figure>
+                        <div class="buttonprix">
+                            <button class="buttonfavoris">ajouter au panier</button>
+                            <h6>45€99</h6>
+                        </div>
+                    </div>  
+                </div>
+
+                <div class="divimgfavoris">
+                    <img alt="Set de 3 lunch box en Inox et couvercles en plastique" class="imgfavoris"    src="imgproduit/accessoire/accessoire9.webp">
+                    <div class="cadrefavoris">
+                        <h5>Set de 3 lunch box en Inox et<br> couvercles en plastique</h5>
+                        <figure></figure>
+                        <div class="buttonprix">
+                            <button class="buttonfavoris">ajouter au panier</button>
+                            <h6>22€</h6>
+                        </div>
+                    </div>  
+                </div>
+
+                <div class="divimgfavoris">
+                    <img alt="Gefu Mandoline VIOLINO" class="imgfavoris"    src="imgproduit/accessoire/accessoire6.jpg">
+                    <div class="cadrefavoris">
+                        <h5>Gefu Mandoline VIOLINO<br></h5>
+                        <figure></figure>
+                        <div class="buttonprix">
+                            <button class="buttonfavoris">ajouter au panier</button>
+                            <h6>32€50</h6>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+
+        </section>
+
+        <section id="contenaire2">
+            <img alt="Historique des commandes" class="histocommande" src="images/commandes.png">
+            <h2>Historique des commandes</h2>
+            <p>Nous n'avons aucune commande<br> enregistrée pour ce compte</p>
+        </section>
+        
+        <section id="contenaire3">
+            <h3 class="tablecontenaire">Données personnelles ></h3>
+            <h3 class="tablecontenaire">Carnet d'adresses ></h3>
+            <h3 class="tablecontenaire">Modes de paiement ></h3>
+            <h1>Paramètres du site</h1>
+            <h3 class="tablecontenaire">Pays et langues ></h3>
+            <h3 class="tablecontenaire">Notifications ></h3>
+            <h3 class="tablecontenaire">Gérer mon compte ></h3>
+            <h1>A propos de</h1>
+            <h3 class="tablecontenaire">Assistance ></h3>
+            <h3 class="tablecontenaire">Conditions générales ></h3>
+            <h3 class="tablecontenaire">Déclaration de confidentialité ></h3>
+            <h3 class="tablecontenaire">Mentions légales ></h3>
+            <h6>V 1.0</h6>
+            <button class="buttonlogout">se déconnecter</button>
+        </section>
+        </div>
+    </main>
+    
+    <!------------- Footer --------------->
+
+
+    <footer>
+        
+        <h4 class="titlefooter">DECOUVREZ L'APPLICATION</h4>
+        
+        <div class="logoapp">
+            <img alt="Luxury Kitchen App IOS" class="applogo" src="images/apple.png">
+            <img alt="Luxury Kitchen App Android" class="applogo" src="images/googleplay.png">
+        </div>
+
+        <h4 class="titlefooter">PAIEMENT SECURISE</h4>
+        
+        <div class="paidsafe">
+            
+            <img alt="VISA" class="paidlogo" src="images/logos_visa.png">
+            <img alt="Mastercard" class="paidlogo" src="images/logos_mastercard.png">
+            <img alt="Paypal" class="paidlogo" src="images/logos_paypal.png">
+        </div>
+
+
+        <h4 class="titlefooter">REJOIGNEZ-NOUS</h4>
+
+        <div class="join-us">
+            
+            <img alt="Facebook" class="resologo" src="images/facebooklogo.png">
+            <img alt="Twitter" class="resologo" src="images/twitterlogo.png">
+            <img alt="Instagram" class="resologo" src="images/instalogo.png">
+        </div>
+
+        <img alt="Remonter en haut" onclick="myswipe()" class="swipe" src="images/swipe.png">
+    </footer>
+</body>
+</html>

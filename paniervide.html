@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panier</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="style3.css">
+    <link rel="stylesheet" href="style4.css">
+</head>
+<body>
+
+    <!--------------- Navbar --------------->
+    <header>
+        <nav>
+        <div class="navheader">
+
+                <h1 class="navtitre">LUXURY KITCHEN</h1>
+                <div class="allnavico">
+                    <a href="profillog.html"><img alt="Profil" class="navico" src="images/profil.png"></a>
+                    <a href="panierlog.html"><img alt="Panier" class="navico" src="images/panier.png"></a>
+                    <img alt="Menu" onclick="myburger()" class="navico" src="images/hamburger.png">
+                </div>
+            </div>
+        </nav>
+
+    
+
+    
+    
+
+    <!------------- Burger ------------->
+
+        <div id="menuburger">
+            <img alt="Fermer le menu" onclick="myburgerclose()" class="fermerburger" src="/images/fermer.png">
+            <ul>
+                <a href="poelelog.html"><li class="liburger">Poêles</li></a>
+                <a href="verreslog.html"><li class="liburger">Verres</li></a>
+                <a href="accessoireslog.html"><li class="liburger">Accessoires</li></a>
+                <a href="couvertlog.html"><li class="liburger">Couverts</li></a>
+                <a href="assietteslog.html"><li class="liburger">Assiettes</li></a>
+                <a href="moulesplaqueslog.html"><li class="liburger">Moules et plaques</li></a>
+            </ul>
+
+            <!-- <div class="buttonpburger">
+                <p class="pburger">Devenez membre pour<br> accéder au meilleur des<br> produits.</p>
+                <a href="inscription.html"></a><button class="buttonburger1">Nous rejoindre</button>
+                <figure></figure>
+                <button class="buttonburger2">S'identifier</button>
+            </div> -->
+           
+            <ul>
+                <a href="panierlog.html"><li class="liburger">Panier</li></a>
+                <a href="paiement.html"><li class="liburger">Commandes</li></a>
+            </ul>
+
+            <div class="join-us">
+            
+                <img alt="Facebook" class="resologo" src="images/facebooklogo.png">
+                <img alt="Twitter" class="resologo" src="images/twitterlogo.png">
+                <img alt="Instagram" class="resologo" src="images/instalogo.png">
+            </div>
+
+        </div>
+            
+        </div>
+    </header>
+    
+
+    <!-----------------   Main  ---------------->
+    <main>
+        
+        <h2 class="titlepaniervide1">MON PANIER</h2>
+        <div class="divpaniervide">
+            <img alt="Panier Vide" class="imgpaniervide" src="images/paniervide.png">
+        
+            <h4 class="titlepaniervide2">Panier Vide</h4>
+            <p class="paragraphepaniervide">Ton panier est encore vide, découvre</br> tout
+            ce nous avons pour toi !
+            </p>
+            <input type="button" class="buttonpaniervide" value="Découvrir">
+        </div>
+
+    </main>
+</body>
+</html>

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paiement</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="style3.css">
+    <link rel="stylesheet" href="style4.css">
+    <script src="function.js"></script>
+</head>
+<body>
+    <!--------------- Navbar --------------->
+    <header>
+        <nav>
+        <div class="navheader">
+
+                <h1 class="navtitre">LUXURY KITCHEN</h1>
+                <div class="allnavico">
+                    <a href="profillog.html"><img alt="Profil" class="navico" src="images/profil.png"></a>
+                    <a href="panierlog.html"><img alt="Panier" class="navico" src="images/panier.png"></a>
+                    <img alt="Menu" onclick="myburger()" class="navico" src="images/hamburger.png">
+                </div>
+            </div>
+        </nav>
+
+    
+
+    
+    
+
+    <!------------- Burger ------------->
+
+        <div id="menuburger">
+            <img alt="Fermer le menu" onclick="myburgerclose()" class="fermerburger" src="/images/fermer.png">
+            <ul>
+                <a href="poelelog.html"><li class="liburger">Poêles</li></a>
+                <a href="verreslog.html"><li class="liburger">Verres</li></a>
+                <a href="accessoireslog.html"><li class="liburger">Accessoires</li></a>
+                <a href="couvertlog.html"><li class="liburger">Couverts</li></a>
+                <a href="assietteslog.html"><li class="liburger">Assiettes</li></a>
+                <a href="moulesplaqueslog.html"><li class="liburger">Moules et plaques</li></a>
+            </ul>
+
+            <!-- <div class="buttonpburger">
+                <p class="pburger">Devenez membre pour<br> accéder au meilleur des<br> produits.</p>
+                <a href="inscription.html"></a><button class="buttonburger1">Nous rejoindre</button>
+                <figure></figure>
+                <button class="buttonburger2">S'identifier</button>
+            </div> -->
+           
+            <ul>
+                <a href="panierlog.html"><li class="liburger">Panier</li></a>
+                <a href="paiement.html"><li class="liburger">Commandes</li></a>
+            </ul>
+
+            <div class="join-us">
+            
+                <img alt="Facebook" class="resologo" src="images/facebooklogo.png">
+                <img alt="Twitter" class="resologo" src="images/twitterlogo.png">
+                <img alt="Instagram" class="resologo" src="images/instalogo.png">
+            </div>
+
+        </div>
+            
+        </div>
+    </header>
+    
+
+    <!-----------------   Main  ---------------->
+    <main>
+
+        <div class="divformulaire">
+            <h2 class="formulairemaintitre">Indiquez votre adresse d'expédition</h2>
+            <select type="country" name="Country" class="formulairecountry">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+
+            <h4 class="formulairetitre">Nom complet</h4>
+            <input type="name" placeholder="Jason Voorhess" class="formulairetextbox">
+            <h4 class="formulairetitre">Numéro de téléphone</h4>
+            <input type="phone" placeholder="00 00 00 00 00" class="formulairetextbox">
+            <h4 class="formulairetitre">Adresse</h4>
+            <input type="adresse" placeholder="14 Avenue Martin Luther King" class="formulairetextbox">
+            <h4 class="formulairetitre">Code Postal</h4>
+            <input type="postal" placeholder="93160" class="formulairetextbox">
+            <h4 class="formulairetitre">Ville</h4>
+            <input type="city" placeholder="Chicago" class="formulairetextbox">
+            <input type="checkbox" class="formulairecheckbox">
+            <label for="formulairecheckbox">Faire de cette adresse mon adresse par défaut</label>
+            <figure></figure>
+            <input type="button" value="UTILISER CETTE ADRESSE" class="formulairebutton">
+
+            <!-- Separateur -->
+
+            <h4 class="formulaireback">RETOUR AU PANIER</h4>
+        </div>
+    </main>
+</body>
+</html>

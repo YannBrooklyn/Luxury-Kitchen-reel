@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assiettes</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="style3.css">
+    <link rel="stylesheet" href="style4.css">
+    <script src="function.js"></script>
+</head>
+<body>
+    <!--------------- Navbar --------------->
+    <header>
+        <nav>
+            <div class="navheader">
+    
+                    <a href="home.html"><h1 class="navtitre">LUXURY KITCHEN</h1></a>
+                    <div class="allnavico">
+                        <img alt="Profil" onclick="mycadrelogin()" class="navico" src="images/profil.png">
+                        <a href="panier.html"><img alt="Panier" class="navico" src="images/panier.png"></a>
+                        <img alt="Menu" onclick="myburger()" class="navico" src="images/hamburger.png">
+                    </div>
+                    <div id="cadrelogin">
+                        <button class="buttonloginhome">Identifiez-vous</button>
+                        <div class="titreloginhomediv">
+                        <h5 class="titreloginhome1">Nouveau client ?</h5>
+                        
+                        <h5 class="titreloginhome2">Commandez ici</h5>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+    
+
+    
+    
+
+    <!------------- Burger ------------->
+
+        <div id="menuburger">
+            <img alt="Fermer le menu" onclick="myburgerclose()" class="fermerburger" src="/images/fermer.png">
+            <ul>
+                <a href="poele.html"><li class="liburger">Poêles</li></a>
+                <a href="verres.html"><li class="liburger">Verres</li></a>
+                <a href="accessoires.html"><li class="liburger">Accessoires</li></a>
+                <a href="couvert.html"><li class="liburger">Couverts</li></a>
+                <a href="assiettes.html"><li class="liburger">Assiettes</li></a>
+                <a href="moulesplaques.html"><li class="liburger">Moules et plaques</li></a>
+            </ul>
+
+            <!-- <div class="buttonpburger">
+                <p class="pburger">Devenez membre pour<br> accéder au meilleur des<br> produits.</p>
+                <a href="inscription.html"></a><button class="buttonburger1">Nous rejoindre</button>
+                <figure></figure>
+                <button class="buttonburger2">S'identifier</button>
+            </div> -->
+           
+            <ul>
+                <a href="panier.html"><li class="liburger">Panier</li></a>
+                <a href="paiement.html"><li class="liburger">Commandes</li></a>
+            </ul>
+
+            <div class="join-us">
+            
+                <img alt="Facebook" class="resologo" src="images/facebooklogo.png">
+                <img alt="Twitter" class="resologo" src="images/twitterlogo.png">
+                <img alt="Instagram" class="resologo" src="images/instalogo.png">
+            </div>
+
+        </div>
+            
+        </div>
+    </header>
+    
+
+    <!-----------------   Main  ---------------->
+    <main>
+        <div id="menucategorie">
+            <ul>
+                <a href="home.html"><li class="licategorie">Accueil</li></a>
+                <a href="poele.html"><li class="licategorie">Poêles</li></a>
+                <a href="verres.html"><li class="licategorie">Verres</li></a>
+                <a href="accessoires.html"><li class="licategorie">Accesoires</li></a>
+                <a href="couvert.html"><li class="licategorie">Couverts</li></a>
+                <li class="licategorie" onclick="mycategoriesclose()">Assiettes</li>
+                <a href="moulesplaques.html"><li class="licategorie">Moules et plaques</li></a>
+            </ul>
+        </div>
+        
+        <div class="listcategorie">
+            <h3 onclick="mycategories()">Assiettes <img class="caron" onclick="mycategories()" src="images/caron.png"></h3>
+        </div>
+
+
+        
+        <div class="divallproduit">
+            <div class="divproduit">
+                <img alt="Lot assiette et autre" class="imgproduit" src="imgproduit/assiettes/assiette1.webp">
+                <h4>Lot assiette et autre</h4>
+                <div class="buttonprixbis">    
+                    <button class="buttonproduit">ajouter au panier</button>
+                    <h5>55€90</h5>
+                </div>
+            </div>
+
+            <div class="divproduit">
+                <img alt="Lot d'assiettes noir" class="imgproduit" src="imgproduit/assiettes/assiette2.jpg">
+                <h4>Lot d'assiettes noir</h4>
+                <div class="buttonprixbis">    
+                    <button class="buttonproduit">ajouter au panier</button>
+                    <h5>45€99</h5>
+                </div>
+            </div>
+
+            <div class="divproduit">
+                <img alt="Assiettes à motif" class="imgproduit" src="imgproduit/assiettes/assiette3.webp">
+                <h4>Assiettes à motif</h4>
+                <div class="buttonprixbis">    
+                    <button class="buttonproduit">ajouter au panier</button>
+                    <h5>32€50</h5>
+                </div>
+            </div>
+
+            <div class="divproduit">
+                <img alt="3 assiettes noir" class="imgproduit" src="imgproduit/assiettes/assiette4.webp">
+                <h4>3 assiettes noir</h4>
+                <div class="buttonprixbis">    
+                    <button class="buttonproduit">ajouter au panier</button>
+                    <h5>55€99</h5>
+                </div>
+            </div>
+
+            <div class="divproduit">
+                <img alt="Assiettes japonaise" class="imgproduit" src="imgproduit/assiettes/assiette5.jpg">
+                <h4>Assiettes japonaise</h4>
+                <div class="buttonprixbis">    
+                    <button class="buttonproduit">ajouter au panier</button>
+                    <h5>55€99</h5>
+                </div>
+            </div>
+
+            <div class="divproduit">
+                <img alt=" Lot d'assiette carré" class="imgproduit" src="imgproduit/assiettes/assiette6.webp">
+                <h4>Lot d'assiette carré</h4>
+                <div class="buttonprixbis">    
+                    <button class="buttonproduit">ajouter au panier</button>
+                    <h5>55€99</h5>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!------------- Footer --------------->
+
+
+    <footer>
+        
+        <h4 class="titlefooter">DECOUVREZ L'APPLICATION</h4>
+        
+        <div class="logoapp">
+            <img alt="Luxury Kitchen App IOS" class="applogo" src="images/apple.png">
+            <img alt="Luxury Kitchen App Android" class="applogo" src="images/googleplay.png">
+        </div>
+
+        <h4 class="titlefooter">PAIEMENT SECURISE</h4>
+        
+        <div class="paidsafe">
+            
+            <img alt="VISA" class="paidlogo" src="images/logos_visa.png">
+            <img alt="Mastercard" class="paidlogo" src="images/logos_mastercard.png">
+            <img alt="Paypal" class="paidlogo" src="images/logos_paypal.png">
+        </div>
+
+
+        <h4 class="titlefooter">REJOIGNEZ-NOUS</h4>
+
+        <div class="join-us">
+            
+            <img alt="Facebook" class="resologo" src="images/facebooklogo.png">
+            <img alt="Twitter" class="resologo" src="images/twitterlogo.png">
+            <img alt="Instagram" class="resologo" src="images/instalogo.png">
+        </div>
+
+        <img alt="Remonter en haut" onclick="myswipe()" class="swipe" src="images/swipe.png">
+    </footer>
+
+</body>
+</html>

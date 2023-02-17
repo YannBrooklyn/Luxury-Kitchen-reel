@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxury Kitchen</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="style3.css">
+    <link rel="stylesheet" href="style4.css">
+    <script src="function.js"></script>
+</head>
+<body>
+
+    <!--------------- Navbar --------------->
+    <header>
+        <nav>
+        <div class="navheader">
+
+                <h1 class="navtitre">LUXURY KITCHEN</h1>
+                <div class="allnavico">
+                    <a href="profillog.html"><img alt="Profil" class="navico" src="images/profil.png"></a>
+                    <a href="panierlog.html"><img alt="Panier" class="navico" src="images/panier.png"></a>
+                    <img alt="Menu" onclick="myburger()" class="navico" src="images/hamburger.png">
+                </div>
+            </div>
+        </nav>
+
+    
+
+    
+    
+
+    <!------------- Burger ------------->
+
+        <div id="menuburger">
+            <img alt="Fermer le menu" onclick="myburgerclose()" class="fermerburger" src="/images/fermer.png">
+            <ul>
+                <a href="poelelog.html"><li class="liburger">Poêles</li></a>
+                <a href="verreslog.html"><li class="liburger">Verres</li></a>
+                <a href="accessoireslog.html"><li class="liburger">Accessoires</li></a>
+                <a href="couvertlog.html"><li class="liburger">Couverts</li></a>
+                <a href="assietteslog.html"><li class="liburger">Assiettes</li></a>
+                <a href="moulesplaqueslog.html"><li class="liburger">Moules et plaques</li></a>
+            </ul>
+
+            <!-- <div class="buttonpburger">
+                <p class="pburger">Devenez membre pour<br> accéder au meilleur des<br> produits.</p>
+                <a href="inscription.html"></a><button class="buttonburger1">Nous rejoindre</button>
+                <figure></figure>
+                <button class="buttonburger2">S'identifier</button>
+            </div> -->
+           
+            <ul>
+                <a href="panierlog.html"><li class="liburger">Panier</li></a>
+                <a href="paiement.html"><li class="liburger">Commandes</li></a>
+            </ul>
+
+            <div class="join-us">
+            
+                <img alt="Facebook" class="resologo" src="images/facebooklogo.png">
+                <img alt="Twitter" class="resologo" src="images/twitterlogo.png">
+                <img alt="Instagram" class="resologo" src="images/instalogo.png">
+            </div>
+
+        </div>
+            
+        </div>
+    </header>
+    
+
+    <!-----------------   Main  ---------------->
+    <main>
+        <div id="menucategorie">
+            <ul>
+                <li class="licategorie" onclick="mycategoriesclose()">Accueil</li>
+                <a href="poelelog.html"><li class="licategorie">Poêles</li></a>
+                <a href="verreslog.html"><li class="licategorie">Verres</li></a>
+                <a href="accessoireslog.html"><li class="licategorie">Accesoires</li></a>
+                <a href="couvertlog.html"><li class="licategorie">Couverts</li></a>
+                <a href="assietteslog.html"><li class="licategorie">Assiettes</li></a>
+                <a href="moulesplaqueslog.html"><li class="licategorie">Moules et plaques</li></a>
+            </ul>
+        </div>
+        
+        <div class="listcategorie">
+            <h3 onclick="mycategories()">CATEGORIE <img class="caron" onclick="mycategories()" src="images/caron.png"></h3>
+        </div>
+
+        
+
+    <!--------------- Offres du moment ------------------>
+        
+
+    <section class="offresdumoment">
+        <h3 class="titre1">Découvrez nos offres du moment !</h3>
+        
+        <div class="itemdefile">
+            
+
+            <!-- 1ERE OFFRE -->
+            <div class="item"><img alt="Soldes Poêles" class="lesoffres"    src="imgproduit/poêle/poele6.webp">
+                <div class="article1bis">
+                    <h3 class="legendenews2">SOLDES ! Poêles de cuisson</h3>
+                    <button class="articlebutton">J'en profite !</button>
+                </div>
+            </div>
+
+            <!-- 2EME OFFRE -->
+            <div class="item"><img alt="Soldes Poêles" class="lesoffres"    src="imgproduit/moules/moule2.webp">
+                <div class="article1bis">
+                    <h3 class="legendenews2">SOLDES ! Poêles de cuisson</h3>
+                    <button class="articlebutton">J'en profite !</button>
+                </div>
+            </div>
+
+            <!-- 3EME OFFRE -->
+            <div class="item"><img alt="SOLDES ! Ustensils et verreries" class="lesoffres" src="imgproduit/accessoire/ustensile.webp">
+                <div class="article1bis">
+                    <h3 class="legendenews2">SOLDES ! Poêles de cuisson</h3>
+                    <button class="articlebutton">J'en profite !</button>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+        <!--------- A la Une  ------------->
+
+        <section class="a-la-une">
+            <div class="itemdefile">
+                <h3 class="titre1">A la Une</h3>
+    
+                <!-- 1ERE OFFRE -->
+                <div class="item"><img alt="Soldes Poêles" class="nosnews"    src="imgproduit/accessoire/accessoire1.png">
+                    <div class="cadre">
+                        <h3 class="legendenews">Ensemble d'ustensiles de<br> cuisine 8 pièces en Silicone</h3>
+                        <figure></figure>
+                        <input type="button" value="ajouter au panier" class="ajouterpanier">
+                        <h5 class="prix">21€99</h5>
+                    </div>
+                </div>
+    
+                <!-- 2EME OFFRE -->
+                <div class="item"><img alt="Soldes Poêles" class="nosnews"    src="imgproduit/couverts/couvert2.png">
+                    <div class="cadre">
+                        <h3 class="legendenews">8 pièces Couverts en Acier<br> Inoxydable</h3>
+                        <figure></figure>
+                        <input type="button" value="ajouter au panier" class="ajouterpanier">
+                        <h5 class="prix">8€50</h5>
+                    </div>
+                </div>
+    
+                <!-- 3EME OFFRE -->
+                <div class="item"><img alt="SOLDES ! Ustensils et verreries" class="nosnews" src="imgproduit/poêle/poele2.webp">
+                    <div class="cadre">
+                        <h3 class="legendenews">Set 3 poêles anti-adhésives et<br> manche amovible</h3>
+                        <figure></figure>
+                        <input type="button" value="ajouter au panier" class="ajouterpanier">
+                        <h5 class="prix">45€99</h5>
+                    </div>
+                </div>
+            
+    
+                <!-- 4EME OFFRE-->
+                <div class="item"><img alt="SOLDES ! Ustensils et verreries" class="nosnews" src="imgproduit/accessoire/accessoire9.webp">
+                    <div class="cadre">
+                        <h3 class="legendenews">Set de 3 lunch box en Inox et<br> couvercles en plastique</h3>
+                        <figure></figure>
+                        <input type="button" value="ajouter au panier" class="ajouterpanier">
+                        <h5 class="prix">22€</h5>
+                    </div>
+                </div>
+                
+                <!-- 5EME OFFRE-->
+                <div class="item"><img alt="SOLDES ! Ustensils et verreries" class="nosnews" src="imgproduit/accessoire/accessoire6.jpg">
+                    <div class="cadre">
+                        <h3 class="legendenews">Gofu Mandoline VIOLINO</h3>
+                        <figure></figure>
+                        <input type="button" value="ajouter au panier" class="ajouterpanier">
+                        <h5 class="prix">32€50</h5>
+                    </div>
+                </div>
+
+            
+            </div>
+    
+            </div>
+        </section>
+
+        
+        <!------- Nos nouveautés ----------->
+
+        <section class="nouveautes">
+            <div class="itemdefile">
+                <h3 class="titre1">Nos nouveautés</h3>
+    
+                <!-- 1ERE OFFRE -->
+                <div class="item"><img alt="Soldes Poêles" class="nosnews"    src="imgproduit/accessoire/blender.png">
+                    <div class="cadre">
+                        <h3 class="legendenews">Blender chauffant 2,5L 2000W<br> en verre et acier</h3>
+                        <figure></figure>
+                        <input type="button" value="ajouter au panier" class="ajouterpanier">
+                        <h5 class="prix">119€99</h5>
+                    </div>
+                </div>
+    
+                <!-- 2EME OFFRE -->
+                <div class="item"><img alt="Soldes Poêles" class="nosnews"    src="imgproduit/accessoire/marmite.png">
+                    <div class="cadre">
+                        <h3 class="legendenews">Robot cuisseur multifonction<br> 4,5L 1000W</h3>
+                        <figure></figure>
+                        <input type="button" value="ajouter au panier" class="ajouterpanier">
+                        <h5 class="prix">20€</h5>
+                    </div>
+                </div>
+    
+                <!-- 3EME OFFRE -->
+                <div class="item"><img alt="SOLDES ! Ustensils et verreries" class="nosnews" src="imgproduit/poêle/poele12.webp">
+                    <div class="cadre">
+                        <h3 class="legendenews">8 pièces Couverts en Acier<br> inoxydable</h3>
+                        <figure></figure>
+                        <input type="button" value="ajouter au panier" class="ajouterpanier">
+                        <h5 class="prix">20€</h5>
+                    </div>
+                </div>
+                
+            
+    
+                <!-- 4EME OFFRE-->
+                <div class="item"><img alt="SOLDES ! Ustensils et verreries" class="nosnews" src="imgproduit/accessoire/accessoire5.webp">
+                    <div class="cadre">
+                        <h3 class="legendenews">Appareil à emballer sous vide<br> blanc 37cm 150W</h3>
+                        <figure></figure>
+                        <input type="button" value="ajouter au panier" class="ajouterpanier">
+                        <h5 class="prix">20€</h5>
+                    </div>
+                </div>
+            
+            </div>
+    
+
+        </section>
+
+        
+    </main>
+    
+    <!------------- Footer --------------->
+
+
+    <footer>
+        
+        <h4 class="titlefooter">DECOUVREZ L'APPLICATION</h4>
+        
+        <div class="logoapp">
+            <img alt="Luxury Kitchen App IOS" class="applogo" src="images/apple.png">
+            <img alt="Luxury Kitchen App Android" class="applogo" src="images/googleplay.png">
+        </div>
+
+        <h4 class="titlefooter">PAIEMENT SECURISE</h4>
+        
+        <div class="paidsafe">
+            
+            <img alt="VISA" class="paidlogo" src="images/logos_visa.png">
+            <img alt="Mastercard" class="paidlogo" src="images/logos_mastercard.png">
+            <img alt="Paypal" class="paidlogo" src="images/logos_paypal.png">
+        </div>
+
+
+        <h4 class="titlefooter">REJOIGNEZ-NOUS</h4>
+
+        <div class="join-us">
+            
+            <img alt="Facebook" class="resologo" src="images/facebooklogo.png">
+            <img alt="Twitter" class="resologo" src="images/twitterlogo.png">
+            <img alt="Instagram" class="resologo" src="images/instalogo.png">
+        </div>
+
+        <img alt="Remonter en haut" onclick="myswipe()" class="swipe" src="images/swipe.png">
+    </footer>
+</body>
+</html>
